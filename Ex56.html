@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<link rel="icon"  href="logo1.png"/>
+		<link rel="stylesheet" href="formstyles.css"/>
+  </head> 
+ <body>		
+	<div id="main-div">
+		<h3>Enrollment Form</h3>			
+		<form>
+			<p>
+				<label>Fullname</label> <span>*</span> <br>
+				<input type="text" id="fna" name="fna" required/>
+			</p>
+			<p>
+				<label>Email Id</label> <span>*</span> <br>
+				<input type="text" id="emid" name="emid" required/>
+			</p>
+			<p>
+				<label>Contact Number</label> <span>*</span> <br>
+				<input type="text" id="phone" name="phone" required maxlength="10"/>
+			</p>
+
+			<p>
+				<label>Which Course?</label> <span>*</span> <br>
+				<select id="course" name="course" style="width:200px;">
+					<option  value="c">C</option>
+					<option  value="cpp">Cpp</option>
+					<option  value="cj">Corejava</option>
+					<option  value="aj">Advjava</option>
+					<option  value="fsj">Full Stack Java</option>
+					<option  value="asp">ASP.net</option>
+					<option  value="c#">C#.net</option>
+					<option  value="fsdn">Full Stack .Net</option>
+					<option  value="python">Python</option>
+					<option  value="dj">DJango</option>
+					<option  value="flask">Flask</option>
+					<option  value="hadoop">Hadoop</option>
+					<option  value="devops">DevOps</option>
+					<option  value="">PHP</option>
+					<option  value="html-js" selected>HTML-JavaScript</option>
+					<option  value="angular">Angular</option>
+					<option  value="react">React</option>
+					<option  value="node">NodeJS</option>
+					<option  value="aws">AWS</option>
+					<option  value="xml-ws">XML-WebServices</option>
+					<option  value="unix">Unix/Linux</option>
+					<option  value="oracle">Oracle</option>
+					<option  value="mysql">MySQL</option>
+					<option  value="mongo">MongoDB</option>
+					<option  value="sql-server">SQL-Server</option>
+				</select>
+			</p>
+			<p>
+				<label>Mode of Training</label> <span>*</span> <br>
+				<select id="mot" name="mot" style="width:200px;">
+					<option value="classroom">Classroom Training</option>
+					<option value="online">Online Training</option>
+					<option value="placement" selected>Placement Training</option>
+					<option value="project">Project Training</option>
+					<option value="weekend">Weekend Training</option>
+					<option value="internship">Internship</option>
+				</select>
+			</p>
+			<p align="center">
+				<button>Submit</button>
+			</p>
+		</form>
+	</div>
+</body> 
+</html>

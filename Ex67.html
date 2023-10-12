@@ -1,0 +1,39 @@
+<!--  example on pseudo elements  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<link rel="icon"  href="logo1.png"/>
+		<meta charset="UTF-8"/>	
+		<style>
+			h2::before{
+				content:"@ ";
+			}
+			h2::after{
+				content:url(images/b.png);
+			}
+			p::first-letter{
+				color:yellow;
+				background:blue;
+				font-size:32px;
+			}
+			p::first-line{
+					color:blue;
+			}
+			::selection{
+				color:yellow;
+				background:red;
+			}
+		</style>
+  </head> 
+  <body>		
+		<h3>demo on pseudo elements</h3>
+		<h2>NO WARRANTY</h2>
+		<p>EDITPLUS IS SOLD "AS IS" AND WITHOUT ANY WARRANTY AS TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR ANY OTHER WARRANTIES EITHER EXPRESSED OR IMPLIED. THE AUTHOR WILL NOT BE LIABLE FOR DATA LOSS, DAMAGES, LOSS OF PROFITS OR ANY OTHER KIND OF LOSS WHILE USING OR MISUSING THIS SOFTWARE.</p>
+
+		<h2>Evaluation and Purchase</h2>
+		<p>EditPlus is not free software. You may use this software for evaluation purposes without charge for a period of 30 days. If you use this software after the 30 day evaluation period, you must buy the license.</p>
+
+		<h2>Distribution of the evaluation version</h2>
+		<p>You may copy the evaluation version of this software and documentation as you wish, and give exact copies of the original evaluation version to anyone, and distribute the evaluation version of the software and documentation in its unmodified form via electronic means. But you should not charge or requesting donations for any such copies however made and from distributing the software and/or documentation with other products without the author's written permission.</p>
+  </body> 
+</html>
